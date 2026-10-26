@@ -1,5 +1,5 @@
 def main():
-    print("Hello from expandaidemo!")
+    print("Hello from expand-ai-demo!")
 
 
 if __name__ == "__main__":
