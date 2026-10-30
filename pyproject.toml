@@ -7,8 +7,8 @@ requires-python = "==3.12.*"
 dependencies = [
     "ipywidgets>=8.1.9",
     "jupyter>=1.1.1",
-    "openai",
-    "python-dotenv",
+    "openai>=3.41.0",
+    "python-dotenv>=1.2.4",
     "tqdm>=4.70.1",
     "unsloth>=2026.10.9",
 ]
