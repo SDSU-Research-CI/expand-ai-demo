@@ -5,6 +5,8 @@ set -e
 
 echo "Configuring environment. This might take a moment."
 
+sudo apt-get update && sudo apt-get install -y build-essential python3.12-dev
+
 # 1. Check if uv is available, or install it
 if ! command -v uv &> /dev/null; then
     # Double check if it was just installed locally but not on PATH yet
