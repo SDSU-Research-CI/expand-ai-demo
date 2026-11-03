@@ -5,11 +5,21 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.12.*"
 dependencies = [
+    "bitsandbytes>=0.50.2",
     "ipykernel>=7.4.0",
     "ipywidgets>=8.1.9",
     "jupyter>=1.1.1",
+    "numpy>=2.5.4",
     "openai>=3.41.0",
     "python-dotenv>=1.2.4",
+    "tokenizers>=0.23.3",
+    "torchao>=0.18.0",
+    "torchaudio>=2.11.1",
+    "torchvision>=0.29.1",
     "tqdm>=4.70.1",
+    "transformers>=5.17.0",
+    "trl>=1.15.0",
     "unsloth>=2026.10.9",
+    "unsloth-zoo>=2026.10.9",
+    "xformers>=0.0.35",
 ]
