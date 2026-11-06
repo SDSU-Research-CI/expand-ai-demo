@@ -9,6 +9,7 @@ dependencies = [
     "ipykernel>=7.4.0",
     "ipywidgets>=8.1.9",
     "jupyter>=1.1.1",
+    "nb-venv-kernels>=1.2.52",
     "numpy>=2.5.4",
     "openai>=3.41.0",
     "python-dotenv>=1.2.4",
